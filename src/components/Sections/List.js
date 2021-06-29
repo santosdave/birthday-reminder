@@ -1,7 +1,8 @@
 import { Button } from '@material-ui/core';
-import React from 'react';
-
+import React, {useState} from 'react';
+import removeBirthday from './Section1';
 const List = ({ people }) => {
+ 
     
   return (
     <>
@@ -17,7 +18,7 @@ const List = ({ people }) => {
                 </div>
               </div>
               <div>
-                  <Button  className="btn">Clear</Button>
+                  <Button  className="btn" >Clear</Button>
               </div>
             
           </article>

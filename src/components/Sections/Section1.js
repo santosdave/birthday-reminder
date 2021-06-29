@@ -4,7 +4,7 @@ import data from '../Sections/data';
 import {Button} from "@material-ui/core";
 
 function Section1() {
-    const [people, setPeople]= useState(data)
+    const [people, setPeople]= useState(data) 
     return (
         <main>
             <section className="container">
