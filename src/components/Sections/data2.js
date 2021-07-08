@@ -1,8 +1,8 @@
 const reviews = [
     {
       id: 1,
-      name: 'susan smith',
-      job: 'web developer',
+      name: 'Beatrice WAnjiku',
+      job: 'Web developer',
       image:
         'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpg',
       text:
@@ -10,8 +10,8 @@ const reviews = [
     },
     {
       id: 2,
-      name: 'anna johnson',
-      job: 'web designer',
+      name: 'Brian Mutinda',
+      job: 'Web designer',
       image:
         'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883409/person-2_np9x5l.jpg',
       text:
@@ -19,7 +19,7 @@ const reviews = [
     },
     {
       id: 3,
-      name: 'peter jones',
+      name: 'Wycliffe Odhiambo',
       job: 'intern',
       image:
         'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883417/person-3_ipa0mj.jpg',
@@ -28,12 +28,21 @@ const reviews = [
     },
     {
       id: 4,
-      name: 'bill anderson',
-      job: 'the boss',
+      name: 'Beatrice Adera',
+      job: 'The Manager',
       image:
         'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883423/person-4_t9nxjt.jpg',
       text:
         'Edison bulb put a bird on it humblebrag, marfa pok pok heirloom fashion axe cray stumptown venmo actually seitan. VHS farm-to-table schlitz, edison bulb pop-up 3 wolf moon tote bag street art shabby chic. ',
+    },
+    {
+      id: 5,
+      name: 'John Kelvin',
+      job: 'Sales Manager',
+      image:
+        'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883417/person-3_ipa0mj.jpg',
+      text:
+        'Sriracha literally flexitarian irony, vape marfa unicorn. Glossier tattooed 8-bit, fixie waistcoat offal activated charcoal slow-carb marfa hell of pabst raclette post-ironic jianbing swag.',
     },
   ];
   

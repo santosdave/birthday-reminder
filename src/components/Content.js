@@ -6,6 +6,7 @@ import Section4 from './Sections/Section4';
 import Section5 from './Sections/Section5';
 import Section6 from './Sections/Section6';
 import Section7 from './Sections/Section7';
+import Section8 from './Sections/Section8'
 function Content() {
     return (
         <div className="content_body">
@@ -15,7 +16,9 @@ function Content() {
             <Section4/>
             <Section5/>
             <Section6/>
-            <Section7/>
+            {/* <Section7/> */}
+            <Section8/>
+
             
         </div>
     )
