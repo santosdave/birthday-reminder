@@ -2,7 +2,16 @@ import React, {useState} from 'react';
 import {Button} from "@material-ui/core";
 
 function Tour({id, image,info,name, price, removeTour}) {
-    const [readMore, setReadMore]= useState();
+    const [readMore, setReadMore]= useState(false);
+    const handleButtonToggle=()=>{
+        if(readMore==false) {
+            setReadMore(true);
+        }else{
+            setReadMore(false);
+        }
+        
+    }
+   
     return (
         <article className="single-tour">
             <img src={image} alt={name}/>
@@ -13,7 +22,7 @@ function Tour({id, image,info,name, price, removeTour}) {
                 </div>
                 <p>
                   {readMore ? info : `${info.substring(0, 200)}...`}
-                    <Button className="">
+                    <Button className="" onClick={handleButtonToggle}>
                         {readMore ? 'show less' : '  read more'}
                     </Button>
                 </p>
